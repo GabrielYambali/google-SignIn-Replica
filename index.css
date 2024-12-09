@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Box-1 {
+  display: block;
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+  backdrop-filter: blur(2px);
+  box-shadow: 5px 5px 10px 5px;
+}
+
+.first-head h1 {
+  padding-left: 90px;
+  padding-top: 8px;
+  text-decoration: wavy;
+}
+
+.first-head h4 {
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.first-head h4 span {
+  color: rgb(75, 75, 233);
+  cursor: pointer;
+}
+
+.google {
+  display: flex;
+  border: 1px solid rgb(75, 75, 233);
+  width: 300px;
+  height: 40px;
+  margin: 50px auto;
+  margin-top: 70px;
+  border-radius: 5px;
+}
+
+.google h4 {
+  display: flex;
+  color: rgb(75, 75, 233);
+  align-items: center;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.paragraph-1 {
+  text-align: center;
+  padding-bottom: 200px;
+  padding-right: 60px;
+}
+
+.paragraph-1 hr {
+  float: inline-start;
+  width: 15%;
+  margin-top: 15px;
+}
+
+.username h4 {
+  padding-top: 15px;
+  float: inline-start;
+  padding-left: 50px;
+}
+
+.username input {
+  width: 300px;
+  height: 30px;
+  margin-inline: 50px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.password span {
+  color: rgb(75, 75, 233);
+  float: right;
+  padding-left: 186px;
+  cursor: pointer;
+}
+
+.forgot h4 {
+  padding-top: 5px;
+  color: rgb(75, 75, 233);
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 50px;
+  width: 300px;
+  height: 40px;
+  text-decoration: none;
+  background-color: rgb(75, 75, 233);
+  margin: 50px;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
